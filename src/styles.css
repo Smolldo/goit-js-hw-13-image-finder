@@ -1,0 +1,63 @@
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.list-item {
+  list-style: none;
+  margin: 10px;
+}
+.stats {
+  display: flex;
+}
+.stats-item + .stats-item {
+  margin-left: 40px;
+}
+img {
+  height: 400px;
+  object-fit: cover;
+}
+
+.title{
+  color: red;
+  text-align: center;
+  font-size: 44px;
+  font-weight: 900;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.s{
+  color: green;
+}
+
+.inp{
+  font-size: 24px;
+  border-color: transparent;
+  border-bottom-color: brown;
+  border-bottom-width: 4px;
+  border-radius: 14px;
+  outline: transparent;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.btn{
+  padding: 6px 12px;
+  border-radius: 16px;
+  font-weight: 700;
+
+  transition: all .3s linear;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.btn:hover, .btn:focus{
+  cursor: pointer;
+  background-color: grey;
+  color: aliceblue;
+
+  box-shadow: 2px 4px 6px black;
+}
